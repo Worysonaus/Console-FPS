@@ -27,7 +27,7 @@ int main()
 	map += L"#########.......";
 	map += L"#...............";
 	map += L"#.......########";
-	map += L"#..............#";
+	map += L"#......##......#";
 	map += L"#......##......#";
 	map += L"#......##......#";
 	map += L"#..............#";
@@ -106,7 +106,7 @@ int main()
 				int nTestX = (int)(fPlayerX + fEyeX * fDistanceToWall);
 				int nTestY = (int)(fPlayerY + fEyeY * fDistanceToWall);
 				
-				// Test if ray is out of bounds
+				
 				if (nTestX < 0 || nTestX >= nMapWidth || nTestY < 0 || nTestY >= nMapHeight)
 				{
 					bHitWall = true;			
